@@ -1,0 +1,206 @@
+#search-results {
+    background: #ccc;
+    padding: 15px;
+}
+
+div, img {
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -ms-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    outline: none;
+}
+
+.list {
+    margin-bottom: 15px;
+    background: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.row.table-row {
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sp-badge-starter {
+    background-position: 0 -168px;
+}
+
+.sp-badge {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(https://bhetincha.com/static/doko_blue/css/images/tCzXfYOwdl.png);
+    height: 54px;
+    width: 51px;
+    z-index: 100;
+}
+
+.listright {
+    padding-left: 0;
+    padding-right: 0;
+    border-right: 1px solid #ddd;
+    background: #fff;
+    display: table-cell;
+    float: none;
+    vertical-align: top;
+}
+
+.listleft {
+    float: left;
+    width: 160px;
+    background: #fff;
+    min-height: 160px;
+}
+
+.subscribed_list {
+    position: absolute;
+    z-index: 8;
+}
+
+img {
+    width: 100%;
+}
+
+.list_img {
+    height: 138px;
+    margin: auto;
+    text-align: center;
+    background: #f2f2f2;
+}
+
+.list_img img {
+    margin: auto;
+}
+
+.list_cat {
+    font-size: 14px;
+    line-height: 1.2;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.list_brief {
+    padding: 15px 15px 0 15px;
+    background: #fff;
+    text-align: left;
+    margin-left: 160px;
+    border-left: 1px solid #ddd;
+}
+
+.list_title {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.verifiedicon img {
+    width: 18px;
+    margin-top: -3px;
+    margin-left: 3px;
+}
+
+a img {
+    outline: none;
+}
+
+.list_desc {
+    margin-bottom: 5px;
+    color: #000;
+    height: 24px;
+    overflow: hidden;
+}
+
+b, strong {
+    color: #000;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+.listright .list_brief .list-info-item:last-child {
+    margin-bottomm: 0 !important;
+}
+
+.listright .list_brief .list-info-item {
+    padding-left: 38px;
+    margin-right: 0;
+    height: auto !important;
+    line-height: 1.2;
+    margin-bottom: 6px;
+}
+
+.list-info-item {
+    margin-bottom: 5px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.listright .list_brief .list-info-item i {
+    margin-left: -38px;
+}
+
+.list-info-item i {
+    border: 1px solid #999;
+    border-radius: 50%;
+    color: #999;
+    height: 28px;
+    padding: 6px 5px;
+    width: 28px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.listright .list_brief .list-info-item {
+    padding-left: 38px;
+    margin-right: 0;
+    height: auto !important;
+    line-height: 1.2;
+    margin-bottom: 6px;
+}
+
+.list-info-item {
+    margin-bottom: 5px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.listcontact {
+    display: table-cell;
+    float: none;
+    vertical-align: top;
+    color: #999;
+}
+
+.listcontact .list_info {
+    padding-top: 15px;
+}
+
+.listcontact .list_info .list-info-item {
+    margin-bottom: 15px;
+}
+
+.listcontact .list-info-item {
+    height: 30px;
+    overflow: hidden;
+}
+
+.list-info-item {
+    margin-bottom: 5px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.listcontact .list-info-item a {
+    color: #009601;
+}
+
+a {
+    outline: none;
+}
